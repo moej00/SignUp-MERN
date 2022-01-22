@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 
-class App extends Component {
-  constructor() {
+
+class SignUp extends Component{
+    constructor() {
     super();
     this.state = {
       fullname: "",
@@ -114,4 +115,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default SignUp;
